@@ -42,8 +42,8 @@ def drop_exact_duplicates(df: pd.DataFrame) -> pd.DataFrame:
 
 def main():
     # Paths relative to project root
-    raw_path = Path("./online+retail+ii/online_retail_II.xlsx")
-    output_path = Path("./transactions_clean.csv")
+    raw_path = Path("data/raw/online_retail_II.xlsx")
+    output_path = Path("data/processed/transactions_clean.csv")
 
     if not raw_path.exists():
         raise FileNotFoundError(f"Raw data file not found at {raw_path}")
@@ -64,4 +64,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
