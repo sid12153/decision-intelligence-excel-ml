@@ -10,12 +10,12 @@
 Each row represents a single product-level transaction within a customer invoice. An invoice may contain multiple rows if a customer purchased multiple products in a single order.
 
 ### Key Columns
-- InvoiceNo: Unique identifier for each customer order
+- Invoice: Unique identifier for each customer order
 - StockCode: Product identifier
 - Description: Product description
 - Quantity: Number of units purchased
 - InvoiceDate: Date and time of the transaction
-- UnitPrice: Price per unit of the product
+- Price: Price per unit of the product
 - CustomerID: Unique customer identifier
 - Country: Country where the customer is located
 
