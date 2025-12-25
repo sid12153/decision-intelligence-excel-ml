@@ -8,7 +8,8 @@
 - numpy
 
 **Reporting and Business Analysis**
-- Microsoft Excel (Pivot Tables, formulas)
+- Microsoft Excel (Pivot Tables, formulas, XLOOKUP, SUMIFS, dashboard reporting)
+
 
 **Data Storage**
 - CSV exports for downstream analysis
