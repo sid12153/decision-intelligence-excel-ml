@@ -57,17 +57,17 @@ Computed KPIs were validated using multiple consistency checks:
 
 Country-level aggregations reconcile exactly with overall metrics, confirming aggregation correctness.
 
-## Excel Reporting Layer
+## Excel Reporting Layer - Dashboard
 
-An Excel-based reporting layer was built on top of the processed KPI outputs to support business review and validation.
+A final Excel-based dashboard was built on top of the validated KPI outputs to support business review and decision-making.
 
 The dashboard includes:
-- KPI cards for latest month revenue, orders, active customers, and AOV
-- Monthly trend analysis using pivot charts with dual-axis scaling
-- Country-level revenue comparison with explicit handling of skewed distributions
-- Formula-based validation checks (AOV recomputation and revenue reconciliation)
+- KPI cards for revenue, orders, active customers, and average order value
+- Month-over-month comparisons using date-based formulas
+- Trend analysis for revenue, orders, and customer activity
+- Country-level revenue breakdown with explicit handling of skewed distributions
 
-The Excel layer emphasizes transparency and correctness rather than interactivity, mirroring real-world BI reporting practices.
+All metrics were validated against the Python-generated KPIs to ensure consistency between data processing and reporting layers.
 
 ## Executive Summary
 
